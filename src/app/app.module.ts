@@ -7,6 +7,7 @@ import { TemplateModule } from './template/template.module';
 import { FooterComponent } from './template/footer/footer.component';
 import { SubHeaderComponent } from './template/sub-header/sub-header.component';
 import { HeaderComponent } from './template/header/header.component';
+import { HomeModule } from './home/home.module';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { HeaderComponent } from './template/header/header.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    TemplateModule
+    TemplateModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 header {
     background-color: #FFF4F4;
@@ -5,6 +6,7 @@ header {
     height: 80px;
     font-family: 'Poppins', sans-serif;
   }
+
   .span{
     margin: 10px auto;
     color:  #C20C45;
@@ -41,8 +43,9 @@ header {
     }
     
     .logo img {
-      width: 150px;
+      width: 200px; /* Ajuste o tamanho da logo conforme necessário */
       height: auto;
+      margin: 0 auto; /* Para centralizar a logo */
     }
     
     .menu {
@@ -176,7 +179,7 @@ header {
     #check:checked ~ .checkbtn-close {
       display: block;
       margin-right: 30px;
-      color:  #000;
+      color: #A80B37;
       font-size: 25px;
       margin-left: 20px;
     }
