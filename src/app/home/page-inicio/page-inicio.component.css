@@ -101,11 +101,30 @@
     transform: scale(1.1);
   }
 
+  .btn-02 {
+    background-color: #C20C45; /* Cor rosa */
+    color: #fff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-decoration: none; /* Remove sublinhado */
+    border-radius: 3px; /* Borda arredondada */
+    font-size: 1.4rem; /* Tamanho da fonte */
+    transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+  }
+  
+  .btn-02:hover {
+    background-color: #A80B37; /* Cor rosa mais escura ao passar o mouse */
+  }
+  
+
   @media (max-width: 768px) {
     .sobre .col-sm-4 {
       flex: 0 0 100%; /* Colunas ocupam 100% da largura em dispositivos menores */
       margin-bottom: 1rem; /* Adiciona um espaçamento entre as fotos empilhadas */
     }
+    .sobre .row {
+        flex-direction: column; /* Altera a direção para empilhar as fotos verticalmente */
+        align-items: center; /* Alinha as fotos no centro */
+      }
   }
   
   
